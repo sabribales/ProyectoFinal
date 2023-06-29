@@ -12,16 +12,14 @@ body {
     
   }
 
-  
-
   .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: center;
-    
   }
+  
   main {
     flex: 3;
    width: 100%;
@@ -34,7 +32,7 @@ body {
   
   /* Estilos del encabezado */
   header {
-    background-color: #960000;
+    background-color: #000000;
     padding: 10px;
     color: #fff;
     
@@ -46,7 +44,7 @@ body {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      background-color: #960000;
+      background-color: #000000;
       
   }
   
@@ -59,7 +57,7 @@ body {
       display: block;
       padding: 10px 20px;
       text-decoration: none;
-      color: #058f43;
+      color: #67c792;
   }
   
   nav ul ul {
@@ -89,19 +87,19 @@ body {
   nav a:hover {
       cursor: pointer;
       color: #000000;
-      background-color: #1357aa;
+      background-color: #67c792;
       
       
   }
   
   nav ul ul a {
       padding: 10px 15px;
-      color: #058f43;
+      color: #67c792;
       
   }
   
   nav ul ul a:hover {
-      background-color: #1357aa;
+      background-color: #67c792;
       
   }
   
@@ -110,44 +108,41 @@ body {
       
   }
   
-  article {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  /* Estilos de la barra lateral */
-  aside {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 20%;
-    flex: 1;
-  }
+
   /* Estilos del formulario */
   h1 {
     margin-bottom: 20px;
     font-size: 3rem;
+    color: #ffffff;
+    background-color: #103d0c59;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .col {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2600ff;
   }
   
-  h2  {
-      font-size: 1.5rem;
-
-  }
   h3 {
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 15px;
+      color: #ffffff;
+      background-color: #2600ff88;
+      width: 708px;
   }
-  form {
-    display: grid;
-    grid-gap: 10px;
+  form {  
+    width: 700px;
   }
   
   
   p{
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: 'Times New Roman', Times, serif;
+      color: #000000;
+  }
+  .sensores{
+    color: #ffffff;
+    background-color: #0000009d;
+    
   }
   
   label {
@@ -178,10 +173,12 @@ body {
   
   button[type="submit"] {
     background-color: #008000;
+    color: #ffffff;
   }
   
   button[type="reset"] {
     background-color: #ff0000;
+    color: #ffffff;
   }
   ol {
     list-style-type: decimal;
@@ -214,28 +211,41 @@ body {
   color: #000000;
   text-align: center;
   width: 50%;
-  background-color: #46e73759;
-  }
-  .wrap-textos {
-    color: #000000;
-  text-align: center;
-  width: 50%;
-  background-color: #46e73710;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    
-  }
+ 
 
+  }
+.imagen-fondo {
+  background: url(../img/vivero-robotico.png);
+  background-size: cover;
+}
 
+.texto-section{
+  width: 30%;
+  background-color: #0c3f0793;
+  color: #ccc;
+
+}
   /* diseño de modelos de automatizacion */
-
+.h2-section-alineacion{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000000;
+}
 .row{
     height: 450px;
     width: 720px;
     margin-bottom: 10px;
     border: 10px solid;
-    border-color: #1357aa;
+    border-color: #2600ff88;
     
+}
+
+.text-footer{
+  color: blue;
+  margin-top: 15px;
+  margin-left: auto;
+}
+.img-footer{
+  height: 60px;
+  width: 60px;
 }
